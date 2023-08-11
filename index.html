@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="autor" content="Carol Zapata" />
+    <meta name="description"
+        content="Mi portafolio con la información sobre mi aprendizaje aplicado en un sitio web creado con el objetivo de demostrar mis conocimientos, habilidades y otros proyectos que he desarrollado como estudiante de Software Engineering" />
+    <meta name="keywords"
+        content="HTML5, CSS, Software-Engineering, ESCOM, Portafolio, IPN, proyectos, software, estudiante" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>&lt;Carol Zapata | SWE&gt;</title>
+    
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/logo-b.png" type="image/x-icon" />
+</head>
+
+<body>
+
+    <header>
+        <h1>¡Bienvenidos a mi primer proyecto web!</h1>
+    </header>
+
+    <nav class="grid">
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="menu">
+            <li>
+                <a href="./">
+                    <img class="logo" src="./img/logo-b.png" alt="logo">
+                </a>
+            </li>
+            <li><a href="#about-me">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#tecnologias">Tecnologías</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+
+    </nav>
+    <main>
+        <!--INICIO-->
+        <div id="inicio" class="contenedor">
+            <div class="inicio-imagen">
+                <img class="img" src="./img/laptop.jpg" alt="Laptop" />
+            </div>
+            <div class="inicio-texto">
+
+                <h1>La imaginación es el límite</h1>
+                <h2>Dale vida a todas tus ideas, <a href="#contacto"><em>¡contáctame!</em></a></h2>
+            </div>
+        </div>
+
+        <!--SOBRE MI-->
+        <div id="about-me" class="contenedor">
+            <div class="about-me-texto">
+                <h2>Saludos, humano</h2>
+                    <p>
+                        Soy Carol Zapata y soy estudiante de Sistemas Computacionales en ESCOM.
+                        <br><br>
+                        Me interesa el área de Inteligencia Artificial así como Machine Learning y Procesamiento de Lenguaje Natural.
+                        <br>
+                        Me gustaría también conocer más sobre Sistemas Complejos.
+                    </p>
+            </div>
+            <div class="about-me-foto">
+                <img class="img" src="./img/me2.jpeg" alt="Carol Zapata" />
+            </div>
+        </div>
+        
+        <!--PROYECTOS-->
+        <div id="proyectos" class="contenedor">
+            <div class="proyectos-titulo"><h1>P R O Y E C T O S</h1></div>
+            <div class="coleccion-proyectos">
+            <div class="proyecto">
+                <div class="proyecto-imagen"><img class="proyecto-img" src="./img/browniano.png" alt="Máquina de Turing">
+                </div>
+                <div class="proyecto-titulo">
+                    <a href="https://colab.research.google.com/drive/1129DVW6aR9NeJ1G4ZHFyx-4YOonJJcmq?usp=sharing"
+                    target="_blank">
+                        Movimiento Browniano
+                    </a>
+                </div>
+                <div class="proyecto-descripcion">
+                    A partir del "lazamiento de una moneda" un agente se moverá hacia arriba o hacia abajo.
+                    El agente se detendrá al llegar a cierta posición (en este caso 10 o -10).
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="proyecto-imagen"><img class="proyecto-img" src="./img/reinas.png" alt="Tablero del problema de las Reinas">
+                </div>
+                <div class="proyecto-titulo">
+                    <a href="https://colab.research.google.com/drive/1RZxGkUPQ6tFA1kaO6oSBn5V9ph54eCH-?usp=sharing"
+                    target="_blank">
+                    Problema de las Reinas
+                    </a>
+                </div>
+                <div class="proyecto-descripcion">
+                    En un tablero de ajedrez, son colocadas 8 reinas. 
+                    <br>
+                    El objetivo es realizar una cantidad mínima de movimientos 
+                    para que ninguna reina pueda comerse a otra.
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="proyecto-imagen"><img class="proyecto-img" src="./img/penguins.png" alt="Palmer Penguins">
+                </div>
+                <div class="proyecto-titulo">
+                    <a href="https://colab.research.google.com/drive/1oABoewbaUIjdUotSvEo3fsEXgKNaAUNC?usp=sharing"
+                    target="_blank">
+                        Palmer Penguins
+                    </a>
+                </div>
+                <div class="proyecto-descripcion">
+                    Un dataset contiene información relevante para clasificar tres tipos de pingüinos.
+                    <br>
+                    El objetivo es preprocesar los datos y escoger el mejor método de clasificación dadas
+                    las métricas.
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!--TECNOLOGIAS-->
+        <div id="tecnologias" class="contenedor">
+            <div class="tecnologias-titulo"><h1>T E C N O L O G Í A S</h1></div>
+            <div class="coleccion-tecnologias">
+                <div class="tecnologia">
+                    <div class="tecnologia-img"><img class="img" src="./img/python.png" alt="Python"></div>
+                    <div class="tecnologia-texto">
+                        <p>A partir del tercer semesstre de la carrera, empecé a
+                        usar Python para desarrollar mis proyectos escolares. 
+                        <br><br>
+                        <strong>Es el lenguaje de programación que más he utilizado.</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="tecnologia" >
+                    <div class="tecnologia-img"><img class="img" src="./img/html.png" alt="Python"></div>
+                    <div class="tecnologia-texto">
+                        <p>
+                            Aunque el Front-end no sea mi fuerte, en el verano del 2023
+                            me di la oportunidad de probarme a mi misma y probar mis conocimientos y
+                            habilidades en esta herramienta.
+                        </p>
+                    </div>
+                </div>
+                <div class="tecnologia" >
+                    <div class="tecnologia-img"><img class="img" src="./img/css-3.png" alt="Python"></div>
+                    <div class="tecnologia-texto">
+                        <p>
+                            Entender y usar CSS me ha costado trabajo, pero me gustaría
+                            seguir practicando mis conocimientos de esta herramienta
+                            para averiguar hasta dónde puedo llegar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--CONTACTO-->
+        <div id="contacto" class="contenedor">
+            <form class="formulario" action="https://formspree.io/f/mvojgzyn" method="post" autocomplete="off">                <fieldset>
+                    <legend>Estemos en contácto</legend>
+                    <label for="name_for">Nombre:</label>
+                    <input type="text" id="name_for" name="Nombre_Usuario" placeholder="Ej. Daniel Mendez" required>
+                    <label for="tel_for">Teléfono:</label>
+                    <input type="tel" id="tel_for" name="Tel_Usuario" placeholder="(+54)" required>
+                    <label for="email_for">Correo:</label>
+                    <input type="email" id="email_for" name="Email_Usuario" placeholder="ejemplo@hotmail.com" required >
+                    <label for="mensaje_for">Mensaje:</label>
+                    <textarea minlength="3" maxlength="100" name="mensajes"></textarea>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+
+    </main>
+    <footer class="fixed-bottom">
+        <div class="iconos">
+            <a href="https://github.com/carolzama" target="_blank">
+                <img src="./img/github.png" alt="Github-logo" />
+            </a>
+            <a href="https://www.linkedin.com/in/carol-zapata/" target="_blank">
+                <img src="./img/linkedin.png" alt="LinkedIn-logo" />
+            </a>
+            <a href="https://wa.link/p4rh54" target="_blank">
+                <img src="./img/whatsapp.png" alt="Whatsapp-logo" />
+            </a>
+        </div>
+        <div class="footer-texto">
+            <p>Creado con ♥ por Carol Zapata &copy; Derechos reservados, 2023</p>
+            <p><a href="https://www.flaticon.com/free-icons/" title="icons"> &copy; Icons created in Flaticon</a></p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
